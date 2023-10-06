@@ -1,0 +1,21 @@
+print("Buenas noches")
+
+Num_1= int (input ("ingrese valor 1:" )) 
+Num_2= int (input ("ingrese valor 2:" )) 
+
+if (Num_2==0):
+     print  ("dato invalido")
+     Num_2=int(input ("ingrese valor 2:" ))
+else: 
+     pass
+
+
+resultado_suma=Num_1+Num_2
+resultado_resta=Num_1-Num_2
+resultado_division=Num_1/Num_2
+resultado_multiplicacion=Num_1*Num_2
+
+print(f" El resultado de la suma es: {resultado_suma}")
+print(f" El resultado de la resta es: {resultado_resta}")
+print(f" El resultado de la division es: {resultado_division}")
+print(f" El resultado de la multiplicacion es: {resultado_multiplicacion}")
